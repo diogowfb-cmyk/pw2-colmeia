@@ -1,4 +1,4 @@
-public class AbelhaZangao extends Abelha{
+public class AbelhaZangao extends Abelha implements Defensora {
     int quantidadeDeVoo;
 
     public AbelhaZangao(){
@@ -15,4 +15,9 @@ public class AbelhaZangao extends Abelha{
         super.exibir();
         System.out.println("Quantidade de voos: " + quantidadeDeVoo);
     }
+    @Override
+    public void defender() {
+        System.out.println("Defendendo a entrada da colmeia.");
+    }
+
 }

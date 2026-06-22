@@ -1,7 +1,7 @@
 public class TestaAbelha {
     public static void main(String[] args) {
         AbelhaOperaria abelha1 = new AbelhaOperaria();
-        abelha1.nome = "Maya";
+        abelha1.nome = "Flora";
         abelha1.idade = 10;
         abelha1.funcao = "Coletar Nectar";
         abelha1.horaDeVoo = 3;
@@ -9,7 +9,7 @@ public class TestaAbelha {
         System.out.println("---------------------");
 
         AbelhaZangao abelha2 = new AbelhaZangao();
-        abelha2.nome = "Marcelo";
+        abelha2.nome = "Zeca";
         abelha2.idade = 20;
         abelha2.funcao = "Processo Reprodutivo";
         abelha2.quantidadeDeVoo = 4;
@@ -17,7 +17,7 @@ public class TestaAbelha {
         System.out.println("---------------------");
 
         AbelhaRainha abelha3 = new AbelhaRainha();
-        abelha3.nome = "Jessica";
+        abelha3.nome = "Aurora";
         abelha3.idade = 30;
         abelha3.funcao = "Reproducao da colonia";
         abelha3.quantidadeDeOvos = 100;
